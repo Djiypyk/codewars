@@ -6,9 +6,7 @@
 
 function getCount(str) {
   var counts = 0;
-  let arr = [];
   for (let i = 0; i < str.length; i++) {
-    arr[i] = str[i];
     if (
       str[i] == "a" ||
       str[i] == "e" ||
